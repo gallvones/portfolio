@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Karla:wght@200&family=Poppins:ital,wght@0,100;1,200&family=Roboto+Condensed:ital@1&family=Roboto:wght@100&family=Xanh+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(./background.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+header {
+    background: linear-gradient(rgba(250, 251, 110, 0.1), rgba(255, 255, 255, 0)) fixed;
+    height: 7%;
+    width: 100%; 
+       
+}
+
+ul{
+    
+    display: flex;
+    margin-left: 15%;
+    font-weight: bold;   
+}
+
+ul li{
+    margin-right: 7%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 6%;
+    
+    
+}
+ul li a{
+    color: white;
+    
+}
+ul li a:hover{
+    color: rgb(250, 251, 110);
+}
+  
+.home{
+   background: transparent ;
+   border: solid 1px rgb(250, 251, 110);
+   border-radius: 25%;
+   width: 9%;
+   cursor: pointer;
+   margin-left: 0;
+   text-align: center;
+   
+   
+   
+      
+}
+.home a{
+    color: white;
+    
+}
+.home a:hover{
+    color: rgb(250, 251, 110);
+}
+
+
+
+.mail{
+    background: transparent ;
+    border: solid 1px rgb(250, 251, 110);
+    border-radius: 25%;
+    width: 9%;
+    cursor: pointer;
+    text-align: center ;
+       
+ }
+ .mail a{
+     color: white;
+ }
+ .mail a:hover{
+     color: rgb(250, 251, 110);
+ }
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text {
+    padding: 10% 0 0 15%;  /* topo, ,bottom, left  */
+}
+
+
+.obj {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+.trab{
+    font-size: 35px;
+    color: rgb(250, 251, 110);
+    font-weight: bold;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+.redes-sociais {   
+    margin-left: 15%;
+}
+
+.redes-sociais a:hover {
+    color: rgb(250, 251, 110);
+}
+
+.redes-sociais a {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 20px; 
+}
+
+.objtitle {
+    padding: 270px 0 0 235px;
+}
