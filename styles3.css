@@ -134,7 +134,7 @@ ul li a:hover{
     display: block;
     color: white;
     text-align: left;
-    margin-left: 32%;  
+    margin-left: 30%;  
   }
   
   p {
@@ -143,32 +143,24 @@ ul li a:hover{
     line-height: 1.5;
     color: white;
     text-align: left;
-    margin-left: 32%;
+    margin-left: 30%;
     margin-top: 5px;
   }
-  .thirdlist {
+  #containerText {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
     text-align: left;
-    margin-left: 32%;
+    margin-left: 30%;
     margin-top: 5px;
-    display: flex; /* deixou a lista de lado */
+    display: flex; 
     color: rgb(250, 251, 110); 
-    
+    width: 45%;
+    flex-wrap: wrap;
+    line-height: 1.5;
   }
   .list-item {
     margin-right: 20px; 
   }
   
-  .fourdlist {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
-    text-align: left;
-    margin-left: 32%;
-    margin-top: 5px;
-    display: flex;
-    color: rgb(250, 251, 110); 
-    
-  }
+  
   
 
