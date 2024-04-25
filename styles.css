@@ -22,6 +22,8 @@ header {
     background: linear-gradient(rgba(250, 251, 110, 0.1), rgba(255, 255, 255, 0)) fixed;
     height: 7%;
     width: 100%; 
+   
+    
     
 }
 
@@ -54,10 +56,10 @@ ul li a:hover{
     background: transparent ;
     border: solid 1px rgb(250, 251, 110);
     border-radius: 25%;
-    width: 9%;
     cursor: pointer;
     margin-left: 0;
     text-align: center; 
+   width: 8%;
 }
 
 .home a{
@@ -72,14 +74,16 @@ ul li a:hover{
 
 .mail{
     background: transparent ;
-    border: solid 1px rgb(250, 251, 110);
+    border: solid 2px rgb(250, 251, 110);
     border-radius: 25%;
     width: 9%;
     cursor: pointer;
-    text-align: center ; 
+   text-align: center;
+   
+    
 }
 
-    .mail a{
+.mail a{
     color: white;
 }
 

@@ -50,17 +50,13 @@ ul li a:hover{
 }
   
 .home{
-   background: transparent ;
-   border: solid 1px rgb(250, 251, 110);
-   border-radius: 25%;
-   width: 9%;
-   cursor: pointer;
-   margin-left: 0;
-   text-align: center;
-   
-   
-   
-      
+    background: transparent ;
+    border: solid 1px rgb(250, 251, 110);
+    border-radius: 25%;
+    cursor: pointer;
+    margin-left: 0;
+    text-align: center; 
+   width: 8%;
 }
 .home a{
     color: white;
